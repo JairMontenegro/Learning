@@ -14,19 +14,24 @@
   text-transform: uppercase;
   max-width: 980px;
   margin: 0 auto;
+
 }
 
 .logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 10px;
   color: var(--grayslow);
+
+  
 }
 
 .logo img {
   border-radius: 50%;
+}
+.text_logo{
+  margin-left: 10px;
 }
 
 .menu,

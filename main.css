@@ -7,11 +7,6 @@
   --yellow: #ffc107;
   --warning: #ffc107;
   --navbar-shadow: #e5e5e5;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 475px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
 }
 *{
   
@@ -32,4 +27,5 @@ li {
 
 a {
   text-decoration: none;
+  
 }

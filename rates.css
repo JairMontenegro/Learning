@@ -1,0 +1,89 @@
+
+#rates {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+  }
+  
+  .item > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .item > h2 {
+    margin-top: 15px;
+    color: black;
+  }
+  
+  .item > ol {
+    margin: 15px 0;
+    color:black;
+  }
+  
+  .item > ol > li {
+    padding: 5px 0;
+    color: black;
+  }
+  
+  .item > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+  
+  .item > button:hover {
+    transition: background-color 1s;
+  }
+
+  #barman{
+      background: linear-gradient(to bottom, rgba(255,255,255,0), rgb(236, 232, 232, 0.7)), url(https://miescapedigital.com/wp-content/uploads/2021/07/05-bartender-making-cocktail-800x445.jpg);
+      color: black;
+      font-weight: 700;
+    }
+    #flair{
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgb(236, 236, 236, 0.7)), url(https://www.bar.it/wp-content/uploads/2018/05/image2-e1526884472313.jpg);
+        background-size: cover;
+        background-position: right top;
+        color: black;
+        font-weight: 700;
+      }
+    #manager{
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(236,232,232, 0.7)), url(https://haisenberg.com/wp-content/uploads/2020/05/ben-manchester-wins-bar-manager-of-the-year_reference.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        color: black;
+        font-weight: 700;
+      }
+
+  
+  @media (max-width: 800px) {
+    #rates{
+      flex-direction: column;
+    }
+    .item {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  
